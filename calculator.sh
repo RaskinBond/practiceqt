@@ -12,7 +12,7 @@ read -p "Enter 1st number: " first_number
 read -p "Enter 2nd number: " second_number
 
 
-echo "addition of entered numbers = " $(( $first_number + $second_number ))
-echo "subtraaction of entered numbers = " $(( $first_number - $second_number ))
-echo "multiplication of numbers = " $(( $first_number * $second_number ))
-echo "division of entered numbers = " $(( $first_number / $second_number ))
+echo "Addition of entered numbers = " $(( $first_number + $second_number ))
+echo "Subtraction of entered numbers = " $(( $first_number - $second_number ))
+echo "Multiplication of numbers = " $(( $first_number * $second_number ))
+echo "Division of entered numbers = " $(( $first_number / $second_number ))
