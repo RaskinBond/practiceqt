@@ -4,7 +4,7 @@
 # Author: Raskin B.
 # Version: v1.0.0
 # Date: 15-Dec-2022
-# Description: Accessing variables across shell scripts
+# Description: De-bugging the shell script
 # Usage: ./debugdemo.sh
 ###########################################################
 
