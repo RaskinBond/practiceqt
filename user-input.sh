@@ -12,4 +12,4 @@ name=${1}
 
 echo "Hello ${name}!"
 
-echo "0 = ${0}  1 = ${1}"
+echo "0 = ${0} & 1 = ${1}"
