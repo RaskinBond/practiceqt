@@ -19,7 +19,7 @@ echo "Hey $(whoami)!"
 my_name="Raskin"
 org_name="Swagg"
 
-echo "Hi, This is ${my_name}, working with ${org_name}."
+echo "Hi, This is ${my_name}, working with ${org_name}"
 
 # Arithmetic operations
 number=3
