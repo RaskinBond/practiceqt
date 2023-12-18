@@ -10,5 +10,5 @@
 
 thanos="Avengers Infinity"
 echo "This is from script 1 thanos= ${thanos}"
-export thanos
-./script2.sh
+#export thanos
+./script2.sh $thanos
