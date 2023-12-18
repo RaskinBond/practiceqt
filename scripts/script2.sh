@@ -8,6 +8,6 @@
 # Usage: ./script2.sh
 ###########################################################
 
-ant-man="Avengers End Game"
+antman="Avengers End Game"
 echo "This is script2"
-echo "${ant-man} is the other half of ${thanos}"
+echo "${antman} is the other half of ${thanos}"
