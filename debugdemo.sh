@@ -1,13 +1,16 @@
 #!/bin/bash
 
-#checking error codes
+###########S#c#r#i#p#t######H#e#a#d#e#r####################
+# Author: Raskin B.
+# Version: v1.0.0
+# Date: 15-Dec-2022
+# Description: Accessing variables across shell scripts
+# Usage: ./debugdemo.sh
+###########################################################
 
-mktemp
-code=$?
+# Execute script using below commands
+# bash -v ./debugdemo.sh Firstname Lastname
+# bash -x ./debugdemo.sh Firstname Lastname
 
-mkdir /home/ubuntu
-codes=$?
-
-echo "the execution of the last comamand was successful. Hence, the success code is ${code}"
-
-echo "the execution of the previous comamand was a failure. Hence, the error code is ${codes}"
+echo "the zeroth argument is $(basename $0)"
+echo "Hello $*"

@@ -4,7 +4,7 @@
 # Author: Raskin B.
 # Version: v1.0.0
 # Date: 15-Dec-2022
-# Description: This is an interactive shell script asking questions to the user
+# Description: A variable from this scipt is being used by script2.sh 
 # Usage: ./script1.sh
 ###########################################################
 
