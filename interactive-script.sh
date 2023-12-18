@@ -13,5 +13,5 @@ read -p "what's your occupation? " "user_occupation"
 read -p "current location? " "user_location"
 read -p "since when you've been here? " "timestamp"
 
-echo -e "\nHey ${user_name} welcome to ${user_location}."
+echo -e "\n Hey ${user_name}! Welcome to ${user_location}."
 echo -e "\n${user_name} has been working as a ${user_occupation} from past ${timestamp}."
