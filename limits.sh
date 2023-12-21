@@ -44,7 +44,6 @@ echo $?
 [ 5 -gt 29 ]
 echo $?
 
-
 #same can be achieved for checking if a file exists or not
 test -f ./sample.txt
 echo $?
